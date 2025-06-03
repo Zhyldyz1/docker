@@ -1,4 +1,0 @@
-# Base Image
-FROM centos
-
-RUN dnf install httpd

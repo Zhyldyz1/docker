@@ -1,7 +1,0 @@
-# Base Image
-FROM centos:centos8
-
-RUN dnf update -y
-RUN dnf install httpd -y
-RUN echo 'Hello, this is my custom apache' > /var/www/html/index.html
-
