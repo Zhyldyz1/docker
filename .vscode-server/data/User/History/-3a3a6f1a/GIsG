@@ -1,0 +1,5 @@
+# Base Image
+FROM centos
+
+RUN dnf update -y
+RUN dnf install httpd -y

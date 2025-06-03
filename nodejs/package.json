@@ -1,0 +1,17 @@
+{
+  "name": "node-server-example",
+  "version": "1.0.0",
+  "description": "A simple Node.js server running on port 3000",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "docker"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {}
+}
